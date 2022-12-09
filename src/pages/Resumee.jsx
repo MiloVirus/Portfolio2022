@@ -1,6 +1,8 @@
 import React from 'react'
 import { Card, Stack, CardBody, Heading, Image, Text, Box, Flex, color } from "@chakra-ui/react";
 import educationLogo from "../img/educationLogo.png"
+import utelLogo from "../img/utel_logo.png"
+import usbLogo from "../img/usbLogo.png"
 
 const Resumee = () => {
   return (
@@ -76,6 +78,42 @@ const Resumee = () => {
                 </Text>
                 <Image src={educationLogo} width={10}></Image>  
             </Flex>
+            <Box marginTop={10}>
+                <Flex gap={10} justifyContent={"space-between"}>  
+                    <Flex gap={10}>
+                        <Image src={utelLogo} width={20}></Image>
+                        <Box>
+                           <Text fontSize={20} fontWeight={600} marginRight={2}>
+                                Utel - Ucamp         
+                            </Text>
+                            <Text fontSize={18}>
+                                Fullstack Web Developing
+                            </Text> 
+                        </Box>
+                        
+                    </Flex>
+                    <Text justifyContent={"flex-end"}>
+                        2022
+                    </Text>
+                </Flex>
+                <Flex gap={10} justifyContent={"space-between"} marginTop={3}>  
+                    <Flex gap={10} alignItems={"center"}>
+                        <Image src={usbLogo} width={20}></Image>
+                        <Box>
+                           <Text fontSize={20} fontWeight={600} marginRight={2}>
+                                Universidad de San Buenaventura Cali        
+                            </Text>
+                            <Text fontSize={18}>
+                                Multimedia Engineering
+                            </Text> 
+                        </Box>
+                        
+                    </Flex>
+                    <Text justifyContent={"flex-end"}>
+                        2010 - 2015
+                    </Text>
+                </Flex>
+            </Box>
         </Box>
     </>
   )

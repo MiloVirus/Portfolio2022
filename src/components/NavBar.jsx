@@ -58,7 +58,7 @@ const NavBar = () => {
           >
             <Text fontSize={20}>Home</Text>
           </Button></Link>
-          <Link to="/products" relative="path">
+          <Link to="/projects" relative="path">
           <Button
             cursor={"pointer"}
             as="a"
@@ -143,7 +143,7 @@ const NavBar = () => {
           mx={2}
           w="100%"
         >
-          <Link to="/products" relative="path">Products</Link>
+          <Link to="/projects" relative="path">Projects</Link>
         </Button>
         <Button
           as="a"
@@ -155,19 +155,6 @@ const NavBar = () => {
           w="100%"
         >
           <Link to="" relative="path">Contact</Link>
-        </Button>
-        <Button
-          as="a"
-          color="white"
-          variant="ghost"
-          aria-label="contact"
-          bg="#7BE0AD"
-          my={5}
-          pr={9}
-          pl={9}
-          w="100%"
-        >
-          <Link to="/registration" relative="path">Create Account</Link>
         </Button>
       </Flex>
     </Flex>
