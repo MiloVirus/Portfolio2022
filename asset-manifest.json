@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio2022/static/css/main.925bdccf.css",
-    "main.js": "/Portfolio2022/static/js/main.c759baec.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Portfolio2022/static/js/787.28cb0dcd.chunk.js",
-    "static/media/digimonlist.jpg": "/Portfolio2022/static/media/digimonlist.a338344cac195d508b3f.jpg",
-    "static/media/restaurant-app.jpg": "/Portfolio2022/static/media/restaurant-app.1c962803a6d333d0e1d8.jpg",
-    "static/media/ecommerce-app.jpg": "/Portfolio2022/static/media/ecommerce-app.e88231fe6df40c491a35.jpg",
-    "static/media/crud.jpg": "/Portfolio2022/static/media/crud.e39d317f57cdfb5107eb.jpg",
-    "static/media/anek-latin-all-400-normal.woff": "/Portfolio2022/static/media/anek-latin-all-400-normal.5f9562b089d653ed8712.woff",
-    "static/media/avataaars.png": "/Portfolio2022/static/media/avataaars.036611447338b5be0cf1.png",
-    "static/media/educationLogo.png": "/Portfolio2022/static/media/educationLogo.1f0169cb15eb8a2edf9f.png",
-    "static/media/utel_logo.png": "/Portfolio2022/static/media/utel_logo.d457f0d85e28266e29d0.png",
-    "static/media/anek-latin-latin-400-normal.woff2": "/Portfolio2022/static/media/anek-latin-latin-400-normal.2073940bc3985f6dead0.woff2",
-    "static/media/usbLogo.png": "/Portfolio2022/static/media/usbLogo.82ad4ecaf5dbf9d1eb28.png",
-    "static/media/anek-latin-latin-ext-400-normal.woff2": "/Portfolio2022/static/media/anek-latin-latin-ext-400-normal.9c4a6de97deceecba7dc.woff2",
-    "static/media/anek-latin-vietnamese-400-normal.woff2": "/Portfolio2022/static/media/anek-latin-vietnamese-400-normal.3436f07c566d5c175597.woff2",
-    "static/media/logo.svg": "/Portfolio2022/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
-    "index.html": "/Portfolio2022/index.html",
-    "main.925bdccf.css.map": "/Portfolio2022/static/css/main.925bdccf.css.map",
-    "main.c759baec.js.map": "/Portfolio2022/static/js/main.c759baec.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Portfolio2022/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.2bf5ce10.css",
+    "main.js": "/static/js/main.a59209df.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/digimonlist.jpg": "/static/media/digimonlist.a338344cac195d508b3f.jpg",
+    "static/media/restaurant-app.jpg": "/static/media/restaurant-app.1c962803a6d333d0e1d8.jpg",
+    "static/media/ecommerce-app.jpg": "/static/media/ecommerce-app.e88231fe6df40c491a35.jpg",
+    "static/media/crud.jpg": "/static/media/crud.e39d317f57cdfb5107eb.jpg",
+    "static/media/anek-latin-all-400-normal.woff": "/static/media/anek-latin-all-400-normal.5f9562b089d653ed8712.woff",
+    "static/media/avataaars.png": "/static/media/avataaars.036611447338b5be0cf1.png",
+    "static/media/educationLogo.png": "/static/media/educationLogo.1f0169cb15eb8a2edf9f.png",
+    "static/media/utel_logo.png": "/static/media/utel_logo.d457f0d85e28266e29d0.png",
+    "static/media/anek-latin-latin-400-normal.woff2": "/static/media/anek-latin-latin-400-normal.2073940bc3985f6dead0.woff2",
+    "static/media/usbLogo.png": "/static/media/usbLogo.82ad4ecaf5dbf9d1eb28.png",
+    "static/media/anek-latin-latin-ext-400-normal.woff2": "/static/media/anek-latin-latin-ext-400-normal.9c4a6de97deceecba7dc.woff2",
+    "static/media/anek-latin-vietnamese-400-normal.woff2": "/static/media/anek-latin-vietnamese-400-normal.3436f07c566d5c175597.woff2",
+    "static/media/logo.svg": "/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
+    "index.html": "/index.html",
+    "main.2bf5ce10.css.map": "/static/css/main.2bf5ce10.css.map",
+    "main.a59209df.js.map": "/static/js/main.a59209df.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.925bdccf.css",
-    "static/js/main.c759baec.js"
+    "static/css/main.2bf5ce10.css",
+    "static/js/main.a59209df.js"
   ]
 }
