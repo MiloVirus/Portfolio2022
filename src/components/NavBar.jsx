@@ -1,12 +1,14 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect} from "react";
 import { Button, Flex, IconButton, Image, Text } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
 import avatars from "../img/avataaars.png"
 
-const NavBar = () => {
+
+const NavBar = (props) => {
   const [onSwitch, setOnSwitch] = useState(false);
+  
 
   const switchSelection = () => {
     setOnSwitch(!onSwitch);
@@ -18,6 +20,7 @@ const NavBar = () => {
       setOnSwitch(false);
     }
   };
+
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
@@ -80,6 +83,7 @@ const NavBar = () => {
             my={5}
             mx={2}
             w="100%"
+            onClick={props.operate}
           >
             <Text fontSize={20}>Contact</Text>
           </Button>
@@ -153,6 +157,7 @@ const NavBar = () => {
           my={5}
           mx={2}
           w="100%"
+          onClick={props.operate}
         >
           <Link to="" relative="path">Contact</Link>
         </Button>
