@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://milovirus.github.io/",
+  "homepage": "https://milovirus.github.io/Portfolio2022",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.13",
