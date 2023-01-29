@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio2022/static/css/main.925bdccf.css",
-    "main.js": "/Portfolio2022/static/js/main.6fb5b68b.js",
+    "main.js": "/Portfolio2022/static/js/main.1f01a43f.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio2022/static/js/787.28cb0dcd.chunk.js",
     "static/media/digimonlist.jpg": "/Portfolio2022/static/media/digimonlist.a338344cac195d508b3f.jpg",
     "static/media/restaurant-app.jpg": "/Portfolio2022/static/media/restaurant-app.1c962803a6d333d0e1d8.jpg",
@@ -18,11 +18,11 @@
     "static/media/logo.svg": "/Portfolio2022/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
     "index.html": "/Portfolio2022/index.html",
     "main.925bdccf.css.map": "/Portfolio2022/static/css/main.925bdccf.css.map",
-    "main.6fb5b68b.js.map": "/Portfolio2022/static/js/main.6fb5b68b.js.map",
+    "main.1f01a43f.js.map": "/Portfolio2022/static/js/main.1f01a43f.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio2022/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.925bdccf.css",
-    "static/js/main.6fb5b68b.js"
+    "static/js/main.1f01a43f.js"
   ]
 }
