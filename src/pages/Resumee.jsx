@@ -3,6 +3,7 @@ import { Card, Stack, CardBody, Heading, Image, Text, Box, Flex, color } from "@
 import educationLogo from "../img/educationLogo.png"
 import utelLogo from "../img/utel_logo.png"
 import usbLogo from "../img/usbLogo.png"
+import { motion} from "framer-motion"
 
 const Resumee = () => {
   return (
@@ -27,6 +28,10 @@ const Resumee = () => {
                 <Text fontSize={30} fontWeight={600}>
                     Skills
                 </Text>
+                <motion.div whileHover={{ scale: 1.1 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
+                        
                     <Card
                         direction={{ base: 'column', sm: 'row' }}
                         overflow='hidden'
@@ -68,6 +73,7 @@ const Resumee = () => {
                             </CardBody>
                         </Stack>
                     </Card>
+                </motion.div>
             </Box>
         </Box>
         <Box w={["90%","90%","40%","40%"]} m={"auto"} marginTop={10}>

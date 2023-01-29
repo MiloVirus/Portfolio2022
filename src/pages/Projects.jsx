@@ -1,5 +1,6 @@
-import { Box, Card, Image, Text, Flex, CardBody, Heading, Stack, Tag } from '@chakra-ui/react'
+import { Box, Card, Image, Text, Flex, CardBody, Stack, Tag } from '@chakra-ui/react'
 import React from 'react'
+import { motion} from "framer-motion"
 import crud from '../img/crud.jpg'
 import ecommerce from '../img/ecommerce-app.jpg'
 import restaurant from '../img/restaurant-app.jpg'
@@ -13,6 +14,10 @@ const Projects = () => {
                         <Text fontSize={25} fontWeight={600}>
                             Ecommerce App
                         </Text>
+                        <motion.div whileHover={{ scale: 1.1 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
+
                         <Card
                             direction={{ base: 'column', sm: 'row' }}
                             overflow='hidden'
@@ -39,21 +44,26 @@ const Projects = () => {
                                         the needs of the client. In this case a Keyboard store. 
                                         <br/>The website provides users the ability to Register and Login into the created accounts where they can check and buy products. 
                                     </Flex>
-                                    <Tag m={1}>JavaScript</Tag>
-                                    <Tag m={1}>React JS</Tag>
-                                    <Tag m={1}>Chakra UI</Tag>
-                                    <Tag m={1}>Node JS</Tag>
-                                    <Tag m={1}>Mongo DB</Tag>
-                                    <Tag m={1}>Express</Tag>
+                                    <Tag m={1} _hover={{ bg: "#FCDC00", color: " white", cursor:"pointer"}}>JavaScript</Tag>
+                                    <Tag m={1} _hover={{ bg: "#98EEFC", color: " white", cursor:"pointer"}}>React JS</Tag>
+                                    <Tag m={1} _hover={{ bg: "#41C7BF", color: " white", cursor:"pointer"}}>Chakra UI</Tag>
+                                    <Tag m={1} _hover={{ bg: "#83CD29", color: " white", cursor:"pointer"}}>Node JS</Tag>
+                                    <Tag m={1} _hover={{ bg: "#023430", color: " white", cursor:"pointer"}}>Mongo DB</Tag>
+                                    <Tag m={1} _hover={{ bg: "#323232", color: " white", cursor:"pointer"}}>Express</Tag>
                                 </Text>
                                 </CardBody>
                             </Stack>
                         </Card>
+                        </motion.div>
                     </Box>
-                    <Box marginTop={5}>
+                    <Box marginTop={35}>
                         <Text fontSize={25} fontWeight={600}>
                             Restaurant App
                         </Text>
+                        <motion.div whileHover={{ scale: 1.1 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
+
                         <Card
                             direction={{ base: 'column', sm: 'row' }}
                             overflow='hidden'
@@ -79,19 +89,25 @@ const Projects = () => {
                                         menus
                                         <br/>The website provides the Manager a Login where they can manage the Menu. 
                                     </Flex>
-                                    <Tag m={1}>JavaScript</Tag>
-                                    <Tag m={1}>React JS</Tag>
-                                    <Tag m={1}>Bootstrap 5</Tag>
-                                    <Tag m={1}>Firebase</Tag>
+                                    <Tag m={1} _hover={{ bg: "#FCDC00", color: " white", cursor:"pointer"}}>JavaScript</Tag>
+                                    <Tag m={1} _hover={{ bg: "#98EEFC", color: " white", cursor:"pointer"}}>React JS</Tag>
+                                    <Tag m={1} _hover={{ bg: "#7D0AF8", color: " white", cursor:"pointer"}}>Bootstrap 5</Tag>
+                                    <Tag m={1} _hover={{ bg: "#FFCB2B", color: " white", cursor:"pointer"}}>Firebase</Tag>
                                 </Text>
                                 </CardBody>
                             </Stack>
                         </Card>
+                        </motion.div>
                     </Box>
-                    <Box marginTop={5}>
-                        <Text fontSize={25} fontWeight={600}>
+                    <Box marginTop={35}>
+                    <Text fontSize={25} fontWeight={600}>
                             CRUD App
                         </Text>
+                       
+                    <motion.div whileHover={{ scale: 1.1 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
+                        
                         <Card
                             direction={{ base: 'column', sm: 'row' }}
                             overflow='hidden'
@@ -117,19 +133,23 @@ const Projects = () => {
                                         The main idea of the project was to create a CRUD Application that could store data in the Local Storage. The app can Add new players
                                         to the player base, delete, edit them, and set them active or unactive.
                                     </Flex>
-                                    <Tag m={1}>JavaScript</Tag>
-                                    <Tag m={1}>Bootstrap 5</Tag>
-                                    <Tag m={1}>CSS</Tag>
-                                    <Tag m={1}>HTML</Tag>
+                                    <Tag m={1} _hover={{ bg: "#FCDC00", color: " white", cursor:"pointer"}}>JavaScript</Tag>
+                                    <Tag m={1} _hover={{ bg: "#7D0AF8", color: " white", cursor:"pointer"}}>Bootstrap 5</Tag>
+                                    <Tag m={1} _hover={{ bg: "#214CE5", color: " white", cursor:"pointer"}}>CSS</Tag>
+                                    <Tag m={1} _hover={{ bg: "#E44D26", color: " white", cursor:"pointer"}}>HTML</Tag>
                                 </Text>
                                 </CardBody>
                             </Stack>
                         </Card>
+                        </motion.div>
                     </Box>
-                    <Box marginTop={5}>
-                        <Text fontSize={25} fontWeight={600}>
+                    <Box marginTop={35}>
+                    <Text fontSize={25} fontWeight={600}>
                             Dashboard App
                         </Text>
+                        <motion.div whileHover={{ scale: 1.1 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
                         <Card
                             direction={{ base: 'column', sm: 'row' }}
                             overflow='hidden'
@@ -153,16 +173,16 @@ const Projects = () => {
                                     <Flex>
                                         In this Dashboard app I made use of the Digimon API to display data of the digimons. Chart JS was used to visualize the sorting of the Digimon levels through a graph.
                                     </Flex>
-                                    <Tag m={1}>JavaScript</Tag>
-                                    <Tag m={1}>Bootstrap 5</Tag>
-                                    <Tag m={1}>CSS</Tag>
-                                    <Tag m={1}>HTML</Tag>
-                                    <Tag m={1}>Async JS</Tag>
-                                    <Tag m={1}>Chart JS</Tag>
+                                    <Tag m={1} _hover={{ bg: "#FCDC00", color: " white", cursor:"pointer"}}>JavaScript</Tag>
+                                    <Tag m={1} _hover={{ bg: "#7D0AF8", color: " white", cursor:"pointer"}}>Bootstrap 5</Tag>
+                                    <Tag m={1} _hover={{ bg: "#214CE5", color: " white", cursor:"pointer"}}>CSS</Tag>
+                                    <Tag m={1} _hover={{ bg: "#E44D26", color: " white", cursor:"pointer"}}>HTML</Tag>
+                                    <Tag m={1} _hover={{ bg: "#FE767A", color: " white", cursor:"pointer"}}>Chart JS</Tag>
                                 </Text>
                                 </CardBody>
                             </Stack>
                         </Card>
+                        </motion.div>
                     </Box>
                     
                     
