@@ -54,18 +54,18 @@ const Resumee = () => {
                             <Text py='2'>
                             <Flex justifyContent={"space-between"} >
                                 <Box>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>HTML</Text>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>CSS</Text>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>JavaScript</Text>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>React JS</Text>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>Mongo DB</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>HTML</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>CSS</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>JavaScript</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>React JS</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>Mongo DB</Text>
                                 </Box>
                                 <Box>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>Node JS</Text>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>Express</Text>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>Chakra UI</Text>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>Bootstrap 5</Text>
-                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600"}}>Git</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>Node JS</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>Express</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>Chakra UI</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>Bootstrap 5</Text>
+                                    <Text fontSize={16} fontWeight={400} _hover={{fontWeight:"600", cursor:"pointer"}}>Git</Text>
                                 </Box>
                                 
                             </Flex>
